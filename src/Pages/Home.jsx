@@ -1,9 +1,11 @@
-import React from 'react';
+import BannerSection from "../Components/BannerSection";
+import CategorySection from "../Components/CategorySecton";
 
 const Home = () => {
   return (
     <div>
-      <h2>this is home page</h2>
+      <BannerSection />
+      <CategorySection />
     </div>
   );
 };
