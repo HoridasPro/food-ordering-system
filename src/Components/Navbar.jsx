@@ -47,10 +47,10 @@ const Navbar = () => {
             <LuShoppingBag />
           </button>
 
-          <button className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-5 py-3 rounded-2xl font-semibold transition">
+          <Link  to="/registerCard" className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-5 py-3 rounded-2xl font-semibold transition">
             <LuUser />
             Sign in
-          </button>
+          </Link>
         </div>
       </div>
     </header>
